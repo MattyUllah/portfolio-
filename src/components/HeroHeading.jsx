@@ -1,11 +1,10 @@
 const HeroHeading = () => {
   const typedSpan = document.getElementById("typed");
   const totype = [
-    "A Tech Enthusiast",
-    "A Gamer",
-    "AI & ML Enthusiast",
+    "A Devops engineer",
     "A Web Developer",
     "A Programmer",
+    "A Cyber Security engineer",
   ];
 
   const delayTyping_char = 100;
@@ -44,9 +43,9 @@ const HeroHeading = () => {
   return (
     <div className="wrapper">
       <h1 className="effect-wrapper">
-        I am <br />
+        I am 
         <span id="typed"></span>
-        <span className="cursor">&nbsp;</span>
+       
       </h1>
     </div>
   );

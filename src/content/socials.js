@@ -1,19 +1,19 @@
 const socials = [
   {
     icon: "github.svg",
-    url: "https://github.com/randilt",
+    url: "https://github.com/MattyUllah",
   },
   {
     icon: "linkedin.svg",
-    url: "https://www.linkedin.com/in/randiltharusha/",
+    url: "https://www.linkedin.com/in/mattyullah-khan-24096b234/",
   },
   {
     icon: "instagram.svg",
-    url: "https://www.instagram.com/itz_toxic03/",
+    url: "https://www.instagram.com/mattyullahkhan?igsh=MXNsZGhueGY1amllZA== ",
   },
   {
     icon: "facebook.svg",
-    url: "https://facebook.com/profile.php?id=100089910035602",
+    url: "https://www.facebook.com/mattyullah.khan",
   },
 ];
 

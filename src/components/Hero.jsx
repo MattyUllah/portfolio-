@@ -26,16 +26,17 @@ const Hero = (props) => {
         <img src={props.img} alt="" />
       </motion.div>
 
-      <Heading firstWord="Who" secondWord="AmI?" />
+      <Heading />
       <div className="hero-typewriter">
         <h3>I am</h3>
         <Typewriter
           options={{
             strings: [
-              "An Aspiring Developer",
-              "An AI & ML Enthusiast",
-              "An IoT Enthusiast",
-              "A Student",
+              
+              "A Web Developer",
+              "A Devops engineer",
+              "A Programmer",
+              "A Cyber Security engineer",
             ],
             autoStart: true,
             loop: true,
@@ -53,8 +54,8 @@ const Hero = (props) => {
         <br />
         <button className="glowing-btn">
           <span className="glowing-txt">
-            <span className="faulty-letter">R</span>ANDIL
-            <span className="faulty-letter">T</span>HARUSHA
+            <span className="faulty-letter">R</span>Matty
+            <span className="faulty-letter">T</span>khan
           </span>
         </button> */}
         <div className="hero-text">
@@ -62,7 +63,7 @@ const Hero = (props) => {
         </div>
         <br />
         <br />
-        Find me on:
+        <h1>Find me on:</h1>
         <div className="hero-socials">
           {socials.map((social, index) => (
             <a key={index} href={social.url}>

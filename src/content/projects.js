@@ -1,31 +1,66 @@
 //projects start
+import myImage from './ecom.png';
+import myp from './weather.png';
+import myc from './cnt.PNG';
+import chat from './chat.png';
+import student from './student.png';
 const projects = [
   {
-    name: "Booking.com clone",
+    name: "Ecommerce_website in Reactjs",
     description:
-      "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
-    img: "/bookingcom.jpg",
-    preview: "https://bookingcomnext14.netlify.app/",
+      "Reaponsive website user can login and log out and watch trending product, watch products according to price high to low or low to high,add to cart and buy the product",
+    stack: ["React", "HTML", "CSS", "BOOTSTRAP"],
+    img: myImage,
+   
   },
   {
-    name: "Cyberscourge Hub",
+    name: "Weather",
     description:
-      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this blog.",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/cyberscourge-hub",
-    img: "/cyberscourge.jpg",
-    preview: "https://rtharusha.tech",
+    
+      " User can add any city name and get weather update, i use Axios for get the weather api ",
+    stack: ["React", "HTML", "CSS", "BOOTSTRAP"],
+    
+    img: myp,
+    
   },
   {
-    name: "Jotion (Notion Clone)",
+    name: "Ecommerce_website in Django",
     description:
-      "A clone of the popular note taking app Notion. This app is built using Nextjs 13 and Tailwind CSS. It uses clerk for authentication and convex for its real time database. The project is not yet complete ",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/notion-clone",
-    img: "/jotion.jpg",
-    preview: "#",
+      "Admin can add product,remove and update and user can buy and add to cart ",
+    stack: ["HTML", "CSS", "BOOTSTRAP","Django","SQLite"],
+    img: myImage,
+    
+    
+  },
+  {
+    name: "Contact Management in React",
+    description:
+    
+      " User can add information and also watch his previous data which we store ",
+    stack: ["React", "HTML", "CSS", "BOOTSTRAP"],
+    
+    img: myc,
+    
+  },
+  {
+    name: "CRUD in Express.js and Mongodb",
+    description:
+    
+      " User can add information and also watch and delete his previous data which we store ",
+    stack: ["ExpressJs","MongoDb", "HTML", "CSS", "BOOTSTRAP"],
+    
+    img: student,
+    
+  },
+  {
+    name: "Real Time Chat",
+    description:
+    
+      " Users can chats with each others in real time and I use socket.io for this development",
+    stack: ["ReactJs","Express", "HTML", "CSS", "BOOTSTRAP"],
+    
+    img: chat,
+    
   },
 ];
 

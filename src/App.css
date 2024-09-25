@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.cdnfonts.com/css/technology?styles=26651");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
-:root {
-  --glow-color: hsl(12, 100%, 69%);
-}
+
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +17,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #212529;
+  background-color: #000000;
   color: #fff;
   margin: 0;
   height: 100vh;
@@ -54,10 +52,10 @@ body {
   top: 0;
   width: 100%;
   background: rgba(33, 37, 41, 0.8);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  border: 1px 0 solid rgba(255, 255, 255, 0.18);
+  border: 1px 0 solid rgba(0, 0, 0, 0.18);
   z-index: 1;
   font-family: "Share Tech Mono", monospace;
 }
@@ -78,7 +76,7 @@ nav {
 }
 
 .logo a span {
-  color: #fa3939;
+  color:black;
 }
 
 .menu {
@@ -103,7 +101,7 @@ nav {
 
 .menu a:hover {
   opacity: 1;
-  color: #9f9f9f;
+  color: #0c2e76;
 }
 
 .menu-icon {
@@ -121,8 +119,8 @@ nav {
 @media only screen and (max-width: 950px) {
   .menu {
     flex-direction: column;
-    background: rgba(5, 0, 0, 0.3);
-    box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+    background: rgb(0, 0, 0);
+    box-shadow: 0 8px 32px 0 black;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -180,7 +178,7 @@ nav {
   margin-top: 30px;
 }
 .pfp img {
-  max-width: 150px;
+  max-width: 300px;
   border-radius: 50%;
 }
 /* hero styles end */
@@ -196,10 +194,10 @@ nav {
 footer {
   background: rgba(33, 37, 41, 0.8);
 
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+ 
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  border: 1px 0 solid rgba(255, 255, 255, 0.18);
+  border: 1px 0 solid rgba(0, 0, 0, 0.18);
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -219,7 +217,7 @@ footer {
   text-align: center;
 }
 .heading h1 span {
-  color: #fa3939;
+  color: black;
 }
 @media (max-width: 768px) {
   .heading h1 {
@@ -237,7 +235,7 @@ footer {
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 0),
-    rgba(108, 5, 5, 0.649),
+    black,
     rgba(255, 255, 255, 0)
   );
 } */
@@ -247,7 +245,7 @@ footer {
   margin: 20px 50px;
   padding: 18px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 3px 8px 0black;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -281,8 +279,8 @@ footer {
 }
 .project-tag p {
   padding: 8px;
-  background: rgba(234, 3, 3, 0.3);
-  width: fit-content;
+  background: black;
+  
   border-radius: 10px;
 }
 
@@ -308,7 +306,7 @@ footer {
   justify-content: center;
   align-items: center;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  box-shadow: 0 3px 8px 0  black;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -334,7 +332,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 40px;
   margin: 30px;
 }
 .hero-socials img {
@@ -347,7 +345,7 @@ footer {
 .hero-socials a {
   padding: 10px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -368,7 +366,7 @@ form {
   margin: 30px;
   margin-right: 50px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -403,8 +401,8 @@ form > input[type="submit"] {
 }
 
 form > input[type="submit"]:hover {
-  background-color: #c70a0a;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  background-color:black;
+  
 }
 .contact-section {
   margin-top: 20px;
@@ -421,7 +419,7 @@ form > input[type="submit"]:hover {
   height: 100%;
   padding: 50px;
   background: rgba(5, 0, 0, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.37);
+  
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   border: 1px 0 solid rgba(255, 255, 255, 0.18);
@@ -492,15 +490,15 @@ form > input[type="submit"]:hover {
 }
 .navbar-btn {
   padding: 10px;
-  background-color: #fa3939;
+  background-color:black;
   border-radius: 10px;
   transition: 0.2s all ease-in-out;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.6);
+ 
 }
 .navbar-btn:hover {
   transform: scale(1.1);
-  background-color: #f10505;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.8);
+  background-color:black;
+  
 }
 .wrapper {
   width: auto;
@@ -517,12 +515,12 @@ form > input[type="submit"]:hover {
 
 #typed {
   font-weight: bold;
-  color: #fa3939;
+  color:black;
 }
 
 .cursor {
   display: inline-block;
-  background-color: #fa3939;
+  background-color:black;
   animation: blinker 800ms infinite;
 }
 
@@ -532,22 +530,16 @@ form > input[type="submit"]:hover {
 
 @keyframes blinker {
   0% {
-    background-color: #fa3939;
+    background-color: black;
   }
   50% {
     background-color: transparent;
   }
   100% {
-    background-color: #fa3939;
+    background-color: black
   }
 }
-#blog {
-  margin: 50px 50px 0 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 .posts {
   display: flex;
   margin-top: 50px;
@@ -572,16 +564,16 @@ form > input[type="submit"]:hover {
   font-size: 30px;
   margin-top: 30px;
   padding: 10px;
-  background-color: #fa3939;
+  background-color: black;
   border-radius: 10px;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.6);
+  box-shadow: 0 8px 32px 0 black;
   margin-bottom: 20px;
   transition: 0.2s all ease-in-out;
 }
 .cyber-scourge:hover {
   transform: scale(1.1);
-  background-color: #f10505;
-  box-shadow: 0 8px 32px 0 rgba(135, 47, 31, 0.8);
+  background-color: black;
+  box-shadow: 0 8px 32px 0 black;
 }
 .hero-typewriter {
   display: flex;
@@ -593,10 +585,10 @@ form > input[type="submit"]:hover {
   font-size: 40px;
 }
 .typewriter-wrapper span {
-  color: #fa3939;
+  color: black;
 }
 .Typewriter__wrapper {
-  color: #fa3939;
+  color: black;
   font-weight: 700;
 }
 @media (max-width: 768px) {

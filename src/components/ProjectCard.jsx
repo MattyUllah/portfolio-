@@ -15,6 +15,7 @@ const ProjectCard = (props) => {
       <div className="project-title">
         <h2>{props.name}</h2>
       </div>
+      <br/>
       <div className="project-description">
         <p>{props.description}</p>
       </div>
